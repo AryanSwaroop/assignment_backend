@@ -13,6 +13,7 @@ This is a simple Node.js API that checks if a given number is a prime number.
 2. Install dependencies:
    ```sh
    npm install express
+   npm install node
    ```
 3. Start the server:
    ```sh
