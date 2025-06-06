@@ -1,5 +1,5 @@
 # Prime Number API
-
+Deployed Link : https://assignment-backend-0d0p.onrender.com
 This is a simple Node.js API that checks if a given number is a prime number.
 
 ## Prerequisites
