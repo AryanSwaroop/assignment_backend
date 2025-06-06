@@ -5,35 +5,21 @@ This is a simple Node.js API that checks if a given number is a prime number.
 ## Prerequisites
 - [Node.js](https://nodejs.org/) installed on your machine
 
-## Setup & Run
-1. Navigate to the `assigned/backend` directory:
+## Setup & Run (JavaScript Version)
+
+1. **Navigate to the backend directory:**
    ```sh
    cd assigned/backend
    ```
-2. Install dependencies:
+2. **Install dependencies:**
    ```sh
-   npm install express
+   npm install
    ```
-3. Start the server:
+3. **Start the server:**
    ```sh
    node app.js
    ```
    The server will run at `http://localhost:3000`.
-
-## TypeScript Version
-
-1. Install TypeScript and types for Node/Express:
-   ```sh
-   npm install --save-dev typescript @types/node @types/express
-   ```
-2. Build the TypeScript code:
-   ```sh
-   npx tsc
-   ```
-3. Start the server:
-   ```sh
-   node dist/app.js
-   ```
 
 ## API Usage
 ### Endpoint
@@ -65,4 +51,8 @@ If you send an invalid request (e.g., missing or non-numeric `number`), you'll g
 {
   "error": "Please provide a valid number in the request body."
 }
-``` 
+```
+
+## Notes
+- All dependencies are listed in `package.json`.
+- The `node_modules` directory is excluded from version control via `.gitignore`. 
